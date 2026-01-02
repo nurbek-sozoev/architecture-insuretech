@@ -1,1 +1,1 @@
-# architecture-highload
+# architecture-insuretech
