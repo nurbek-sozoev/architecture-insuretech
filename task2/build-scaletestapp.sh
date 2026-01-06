@@ -2,14 +2,14 @@
 
 set -e
 
-echo "Настройка Docker окружения Minikube"
+echo "Настройка docker окружения minikube"
 eval $(minikube docker-env)
 
-echo "Сборка образа внутри Minikube"
+echo "Сборка образа внутри minikube"
 cd scaletestapp
 docker build -t scaletestapp:local .
 cd ..
 
 echo "Проверка образа"
 docker images | grep scaletestapp
-echo "Done"
+

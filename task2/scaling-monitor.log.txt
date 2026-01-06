@@ -1,0 +1,119 @@
+Начало мониторинга: Tue Jan  6 12:01:26 +06 2026        
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 83%/80%   1         10        1          3m15s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          9m41s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   8m           16Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 83%/80%   1         10        1          3m25s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          9m51s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   8m           16Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 83%/80%   1         10        1          3m35s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   8m           16Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 83%/80%   1         10        1          3m45s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   8m           16Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 83%/80%   1         10        1          3m56s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        1          4m6s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          6s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        2          4m16s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          16s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        2          4m26s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          10m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          26s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        2          4m36s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          11m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          36s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        2          4m46s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          11m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          46s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   10m          19Mi            
+
+HPA Status:
+NAME                 REFERENCE                   TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-app-hpa   Deployment/insuretech-app   memory: 98%/80%   1         10        2          4m56s
+Pods:
+NAME                              READY   STATUS    RESTARTS   AGE
+insuretech-app-6cd484674d-csvl8   1/1     Running   0          11m
+insuretech-app-6cd484674d-lz7mj   1/1     Running   0          56s
+Metrics:
+NAME                              CPU(cores)   MEMORY(bytes)   
+insuretech-app-6cd484674d-csvl8   15m          17Mi            
+insuretech-app-6cd484674d-lz7mj   1m           1Mi             
+
